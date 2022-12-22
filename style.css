@@ -1,0 +1,58 @@
+* {
+    text-align: center;
+    list-style-position: center;
+    background-color: rgb(194, 109, 76);
+    border: 2px solid red;
+}
+
+
+.topline {
+    border: 0;
+    background-color: #000;
+    height: 2px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title.main{
+    margin-top: 100px;
+}
+
+.title.sub {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.img {
+    filter: drop-shadow(10px 10px 10px rgb(206, 110, 110));
+    height: 200px;
+    width: auto;
+}
+
+ul {
+        display: inline-flex;
+        list-style: none;
+        padding: 0;
+  }
+
+.link{
+    background-color: rgb(230, 158, 26);
+    
+    display: flex;
+    justify-content: center;
+}
+
+.one{
+    
+    color: black;
+}
+
+
+.two{
+   
+    color: black;
+}
